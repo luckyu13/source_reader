@@ -1,0 +1,1 @@
+0000000000000000000000000000000000000000 6dbe58ef0cddd0920ec674c6465b8ecd30b8937f luckyu <yujiajun13.163.com> 1751103311 +0800	fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master +refs/tags/*:refs/tags/*: storing head

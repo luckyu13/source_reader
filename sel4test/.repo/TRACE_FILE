@@ -1,0 +1,1048 @@
+PID: 1369013 START: 1751102730858446080 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, git@github.com:seL4/sel4test-manifest.git [sid=repo-20250628T092529Z-P0014e3b5/repo-20250628T092530Z-P0014e3b5]
+
+PID: 1369013 START: 1751102730865078528 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'init'] with debug: : export GIT_DIR=/root/workspace/project/sel4test/.repo/manifests.git
+: git init 1>| 2>|
+
+PID: 1369013 END: 1751102730868074496 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'init'] with debug: : export GIT_DIR=/root/workspace/project/sel4test/.repo/manifests.git
+: git init 1>| 2>|
+
+PID: 1369013 START: 1751102730868867328 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 1369013 END: 1751102730870290432 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 1369013 START: 1751102730870656000 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 1369013 END: 1751102730872050176 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 1369013 START: 1751102730872206080 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 1369013 END: 1751102730873684992 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 1369013 START: 1751102730873830400 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 1369013 END: 1751102730875166464 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 1369013 START: 1751102730875376896 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'git@github.com:seL4/sel4test-manifest.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all remote.origin.url git@github.com:seL4/sel4test-manifest.git 1>| 2>|
+
+PID: 1369013 END: 1751102730876865792 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'git@github.com:seL4/sel4test-manifest.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all remote.origin.url git@github.com:seL4/sel4test-manifest.git 1>| 2>|
+
+PID: 1369013 START: 1751102730877034240 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 1369013 END: 1751102730878335744 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 1369013 START: 1751102730878510848 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'ls-remote', '-q', '--symref', '--exit-code', 'origin', 'HEAD'] with debug: : git ls-remote -q --symref --exit-code origin HEAD 1>| 2>|
+
+PID: 1369013 END: 1751102860085285632 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'ls-remote', '-q', '--symref', '--exit-code', 'origin', 'HEAD'] with debug: : git ls-remote -q --symref --exit-code origin HEAD 1>| 2>|
+
+PID: 1369013 START: 1751102860085544960 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 1369013 END: 1751102860087038208 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 1369013 END: 1751102860087249664 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, git@github.com:seL4/sel4test-manifest.git [sid=repo-20250628T092529Z-P0014e3b5/repo-20250628T092530Z-P0014e3b5]
+
+PID: 1369202 START: 1751102897421187840 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, git@github.com:seL4/sel4test-manifest.git [sid=repo-20250628T092817Z-P0014e472/repo-20250628T092817Z-P0014e472]
+
+PID: 1369202 START: 1751102897422920704 :git command None ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 1369202 END: 1751102897424327680 :git command None ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 1369202 START: 1751102897429873408 :git command None ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'manifest.platform', 'auto'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all manifest.platform auto 1>| 2>|
+
+PID: 1369202 END: 1751102897431339264 :git command None ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'manifest.platform', 'auto'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all manifest.platform auto 1>| 2>|
+
+PID: 1369202 START: 1751102897432190720 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/root/workspace/project/sel4test/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/root/workspace/project/sel4test/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 1369202 END: 1751103028024129792 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/root/workspace/project/sel4test/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/root/workspace/project/sel4test/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 1369202 START: 1751103028024414208 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 1369202 END: 1751103028025921024 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 1369202 START: 1751103032028253696 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/root/workspace/project/sel4test/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 1369202 END: 1751103127362205952 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/root/workspace/project/sel4test/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 1369202 END: 1751103127363600384 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, git@github.com:seL4/sel4test-manifest.git [sid=repo-20250628T092817Z-P0014e472/repo-20250628T092817Z-P0014e472]
+
+PID: 1369320 START: 1751103130055371520 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, git@github.com:seL4/sel4test-manifest.git [sid=repo-20250628T093209Z-P0014e4e8/repo-20250628T093210Z-P0014e4e8]
+
+PID: 1369320 START: 1751103130057412352 :git command None ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 1369320 END: 1751103130058621952 :git command None ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 1369320 START: 1751103130064665600 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/root/workspace/project/sel4test/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/root/workspace/project/sel4test/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 1369320 END: 1751103138659102208 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/root/workspace/project/sel4test/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/root/workspace/project/sel4test/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 1369320 START: 1751103138659545088 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: : git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 1369320 END: 1751103138661118464 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: : git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 1369320 START: 1751103138661413376 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /root/workspace/project/sel4test/.repo/manifests
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 1369320 END: 1751103138663924480 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /root/workspace/project/sel4test/.repo/manifests
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 1369320 START: 1751103138664012800 :: load refs /root/workspace/project/sel4test/.repo/manifests.git
+
+PID: 1369320 END: 1751103138664979712 :: load refs /root/workspace/project/sel4test/.repo/manifests.git
+
+PID: 1369320 START: 1751103138665169664 :: scan refs /root/workspace/project/sel4test/.repo/manifests.git
+
+PID: 1369320 END: 1751103138665315584 :: scan refs /root/workspace/project/sel4test/.repo/manifests.git
+
+PID: 1369320 START: 1751103138665455360 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'update-ref', 'refs/heads/default', 'fb80a030d52c403ddb820626ad959728404aa30f'] with debug: : git update-ref refs/heads/default fb80a030d52c403ddb820626ad959728404aa30f 1>| 2>|
+
+PID: 1369320 END: 1751103138667704064 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'update-ref', 'refs/heads/default', 'fb80a030d52c403ddb820626ad959728404aa30f'] with debug: : git update-ref refs/heads/default fb80a030d52c403ddb820626ad959728404aa30f 1>| 2>|
+
+PID: 1369320 START: 1751103138667840768 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'symbolic-ref', 'HEAD', 'refs/heads/default'] with debug: : git symbolic-ref HEAD refs/heads/default 1>| 2>|
+
+PID: 1369320 END: 1751103138669801472 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'symbolic-ref', 'HEAD', 'refs/heads/default'] with debug: : git symbolic-ref HEAD refs/heads/default 1>| 2>|
+
+PID: 1369320 START: 1751103138673360128 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'var', 'GIT_COMMITTER_IDENT'] with debug: : git var GIT_COMMITTER_IDENT 1>| 2>|
+
+PID: 1369320 END: 1751103138675371264 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'var', 'GIT_COMMITTER_IDENT'] with debug: : git var GIT_COMMITTER_IDENT 1>| 2>|
+
+PID: 1369320 START: 1751103138675545856 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 1369320 END: 1751103138676698368 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 1369320 END: 1751103138676852224 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, git@github.com:seL4/sel4test-manifest.git [sid=repo-20250628T093209Z-P0014e4e8/repo-20250628T093210Z-P0014e4e8]
+
+PID: 1369363 START: 1751103288515999488 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, git@github.com:seL4/sel4test-manifest.git [sid=repo-20250628T093448Z-P0014e513/repo-20250628T093448Z-P0014e513]
+
+PID: 1369363 START: 1751103288518688256 :git command None ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 1369363 END: 1751103288520292864 :git command None ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 1369363 START: 1751103288520628992 :git command None ['git', 'config', '--file', '/root/.gitconfig', '--includes', '--null', '--list'] with debug: : git config --file /root/.gitconfig --includes --null --list 1>| 2>|
+
+PID: 1369363 END: 1751103288521911552 :git command None ['git', 'config', '--file', '/root/.gitconfig', '--includes', '--null', '--list'] with debug: : git config --file /root/.gitconfig --includes --null --list 1>| 2>|
+
+PID: 1369363 START: 1751103288530054912 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/root/workspace/project/sel4test/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/root/workspace/project/sel4test/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 1369363 END: 1751103292454926336 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/root/workspace/project/sel4test/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/root/workspace/project/sel4test/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 1369363 START: 1751103292455225344 :: load refs /root/workspace/project/sel4test/.repo/manifests.git
+
+PID: 1369363 END: 1751103292456163072 :: load refs /root/workspace/project/sel4test/.repo/manifests.git
+
+PID: 1369363 START: 1751103294795399936 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'config', '--file', '/root/.gitconfig', '--includes', '--replace-all', 'color.ui', 'auto'] with debug: : git config --file /root/.gitconfig --includes --replace-all color.ui auto 1>| 2>|
+
+PID: 1369363 END: 1751103294797455360 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'config', '--file', '/root/.gitconfig', '--includes', '--replace-all', 'color.ui', 'auto'] with debug: : git config --file /root/.gitconfig --includes --replace-all color.ui auto 1>| 2>|
+
+PID: 1369363 START: 1751103294797797888 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 1369363 END: 1751103294799333120 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 1369363 END: 1751103294799436032 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, git@github.com:seL4/sel4test-manifest.git [sid=repo-20250628T093448Z-P0014e513/repo-20250628T093448Z-P0014e513]
+
+PID: 1369375 START: 1751103298312450816 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: sync [sid=repo-20250628T093458Z-P0014e51f/repo-20250628T093458Z-P0014e51f]
+
+PID: 1369375 START: 1751103298312706304 :: parsing /root/workspace/project/sel4test/.repo/manifests.git/config
+
+PID: 1369375 END: 1751103298312801536 :: parsing /root/workspace/project/sel4test/.repo/manifests.git/config
+
+PID: 1369375 START: 1751103298314697728 :git command None ['git', 'config', '--file', '/root/.gitconfig', '--includes', '--null', '--list'] with debug: : git config --file /root/.gitconfig --includes --null --list 1>| 2>|
+
+PID: 1369375 END: 1751103298316191232 :git command None ['git', 'config', '--file', '/root/.gitconfig', '--includes', '--null', '--list'] with debug: : git config --file /root/.gitconfig --includes --null --list 1>| 2>|
+
+PID: 1369375 START: 1751103298320951552 :git command None ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/repo/.git/config', '--includes', '--null', '--list'] with debug: : git config --file /root/workspace/project/sel4test/.repo/repo/.git/config --includes --null --list 1>| 2>|
+
+PID: 1369375 END: 1751103298322328320 :git command None ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/repo/.git/config', '--includes', '--null', '--list'] with debug: : git config --file /root/workspace/project/sel4test/.repo/repo/.git/config --includes --null --list 1>| 2>|
+
+PID: 1369375 START: 1751103298326681600 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/root/workspace/project/sel4test/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/root/workspace/project/sel4test/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 1369375 END: 1751103302349939968 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/root/workspace/project/sel4test/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/root/workspace/project/sel4test/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 1369375 START: 1751103302350088448 :: load refs /root/workspace/project/sel4test/.repo/manifests.git
+
+PID: 1369375 END: 1751103302351230720 :: load refs /root/workspace/project/sel4test/.repo/manifests.git
+
+PID: 1369375 START: 1751103302351420928 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'symbolic-ref', '-m', 'manifest set to refs/heads/master', 'refs/remotes/m/master', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to refs/heads/master refs/remotes/m/master refs/remotes/origin/master 1>| 2>|
+
+PID: 1369375 END: 1751103302353178880 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'symbolic-ref', '-m', 'manifest set to refs/heads/master', 'refs/remotes/m/master', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to refs/heads/master refs/remotes/m/master refs/remotes/origin/master 1>| 2>|
+
+PID: 1369375 START: 1751103302353286144 :: scan refs /root/workspace/project/sel4test/.repo/manifests.git
+
+PID: 1369375 END: 1751103302353428480 :: scan refs /root/workspace/project/sel4test/.repo/manifests.git
+
+PID: 1369375 START: 1751103302353457920 :: load refs /root/workspace/project/sel4test/.repo/manifests.git
+
+PID: 1369375 END: 1751103302354395648 :: load refs /root/workspace/project/sel4test/.repo/manifests.git
+
+PID: 1369375 START: 1751103302354441472 :: scan refs /root/workspace/project/sel4test/.repo/manifests.git
+
+PID: 1369375 END: 1751103302354582784 :: scan refs /root/workspace/project/sel4test/.repo/manifests.git
+
+PID: 1369375 START: 1751103302354942464 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.existingprojectcount', '0'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.existingprojectcount 0 1>| 2>|
+
+PID: 1369375 END: 1751103302356359936 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.existingprojectcount', '0'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.existingprojectcount 0 1>| 2>|
+
+PID: 1369375 START: 1751103302356548096 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.newprojectcount', '10'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.newprojectcount 10 1>| 2>|
+
+PID: 1369375 END: 1751103302358026752 :git command /root/workspace/project/sel4test/.repo/manifests.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.newprojectcount', '10'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.newprojectcount 10 1>| 2>|
+
+PID: 1369375 START: 1751103302397731584 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/project-objects/seL4.git.git
+: git init 1>| 2>|
+
+PID: 1369375 END: 1751103302401056256 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/project-objects/seL4.git.git
+: git init 1>| 2>|
+
+PID: 1369375 START: 1751103302403204096 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/kernel.git/config', '--includes', '--null', '--list'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/kernel.git/config --includes --null --list 1>| 2>|
+
+PID: 1369375 END: 1751103302404665856 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/kernel.git/config', '--includes', '--null', '--list'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/kernel.git/config --includes --null --list 1>| 2>|
+
+PID: 1369375 START: 1751103302404944896 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/kernel.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/kernel.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 1369375 END: 1751103302406365696 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/kernel.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/kernel.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 1369375 START: 1751103302406511360 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/kernel.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/kernel.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 1369375 END: 1751103302407916800 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/kernel.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/kernel.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 1369375 START: 1751103302408078336 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/kernel.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/kernel.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 1369375 END: 1751103302409428480 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/kernel.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/kernel.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 1369375 START: 1751103302409628672 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/kernel.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'ssh://git@github.com/seL4/seL4.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/kernel.git/config --includes --replace-all remote.seL4.url ssh://git@github.com/seL4/seL4.git 1>| 2>|
+
+PID: 1369375 END: 1751103302411006208 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/kernel.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'ssh://git@github.com/seL4/seL4.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/kernel.git/config --includes --replace-all remote.seL4.url ssh://git@github.com/seL4/seL4.git 1>| 2>|
+
+PID: 1369375 START: 1751103302411144704 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/kernel.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'seL4.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/kernel.git/config --includes --replace-all remote.seL4.projectname seL4.git 1>| 2>|
+
+PID: 1369375 END: 1751103302412496896 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/kernel.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'seL4.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/kernel.git/config --includes --replace-all remote.seL4.projectname seL4.git 1>| 2>|
+
+PID: 1369375 START: 1751103302412653056 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/kernel.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/kernel.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 1369375 END: 1751103302414041600 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/kernel.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/kernel.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 1369375 START: 1751103302414988288 :Call to ssh (check call): ssh -o ControlPath /tmp/ssh-aqm0pgvq/master-%C git@github.com -O check
+
+PID: 1369375 END: 1751103302419817472 :Call to ssh (check call): ssh -o ControlPath /tmp/ssh-aqm0pgvq/master-%C git@github.com -O check
+
+PID: 1369375 START: 1751103302421216512 :Call to ssh: ssh -M -N -o SetEnv GIT_PROTOCOL=version=2 -o ControlPath /tmp/ssh-aqm0pgvq/master-%C git@github.com
+
+PID: 1369375 END: 1751103302421531136 :Call to ssh: ssh -M -N -o SetEnv GIT_PROTOCOL=version=2 -o ControlPath /tmp/ssh-aqm0pgvq/master-%C git@github.com
+
+PID: 1369375 START: 1751103303422603776 :git command /root/workspace/project/sel4test/.repo/projects/kernel.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/master:refs/remotes/seL4/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/projects/kernel.git
+: export GIT_OBJECT_DIRECTORY=/root/workspace/project/sel4test/.repo/project-objects/seL4.git.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 1369375 END: 1751103311873195008 :git command /root/workspace/project/sel4test/.repo/projects/kernel.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/master:refs/remotes/seL4/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/projects/kernel.git
+: export GIT_OBJECT_DIRECTORY=/root/workspace/project/sel4test/.repo/project-objects/seL4.git.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 1369375 START: 1751103311873420288 :git command /root/workspace/project/sel4test/.repo/projects/kernel.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 1369375 END: 1751103311880408576 :git command /root/workspace/project/sel4test/.repo/projects/kernel.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 1369375 START: 1751103311880562688 :: load refs /root/workspace/project/sel4test/.repo/projects/kernel.git
+
+PID: 1369375 END: 1751103311880814848 :: load refs /root/workspace/project/sel4test/.repo/projects/kernel.git
+
+PID: 1369375 START: 1751103311880845568 :: scan refs /root/workspace/project/sel4test/.repo/projects/kernel.git
+
+PID: 1369375 END: 1751103311880877568 :: scan refs /root/workspace/project/sel4test/.repo/projects/kernel.git
+
+PID: 1369375 START: 1751103311881052160 :git command /root/workspace/project/sel4test/.repo/projects/kernel.git ['git', 'update-ref', '-m', 'manifest set to 120951221caa67df6afd003addf0b732537de91e', '--no-deref', 'refs/remotes/m/master', '120951221caa67df6afd003addf0b732537de91e^0'] with debug: : git update-ref -m manifest set to 120951221caa67df6afd003addf0b732537de91e --no-deref refs/remotes/m/master 120951221caa67df6afd003addf0b732537de91e^0 1>| 2>|
+
+PID: 1369375 END: 1751103311883142912 :git command /root/workspace/project/sel4test/.repo/projects/kernel.git ['git', 'update-ref', '-m', 'manifest set to 120951221caa67df6afd003addf0b732537de91e', '--no-deref', 'refs/remotes/m/master', '120951221caa67df6afd003addf0b732537de91e^0'] with debug: : git update-ref -m manifest set to 120951221caa67df6afd003addf0b732537de91e --no-deref refs/remotes/m/master 120951221caa67df6afd003addf0b732537de91e^0 1>| 2>|
+
+PID: 1369375 START: 1751103311883918592 :git command /root/workspace/project/sel4test/.repo/project-objects/musllibc.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/project-objects/musllibc.git.git
+: git init 1>| 2>|
+
+PID: 1369375 END: 1751103311886835968 :git command /root/workspace/project/sel4test/.repo/project-objects/musllibc.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/project-objects/musllibc.git.git
+: git init 1>| 2>|
+
+PID: 1369375 START: 1751103311888708096 :git command /root/workspace/project/sel4test/.repo/project-objects/musllibc.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/musllibc.git/config', '--includes', '--null', '--list'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/musllibc.git/config --includes --null --list 1>| 2>|
+
+PID: 1369375 END: 1751103311890075392 :git command /root/workspace/project/sel4test/.repo/project-objects/musllibc.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/musllibc.git/config', '--includes', '--null', '--list'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/musllibc.git/config --includes --null --list 1>| 2>|
+
+PID: 1369375 START: 1751103311890399744 :git command /root/workspace/project/sel4test/.repo/project-objects/musllibc.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/musllibc.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/musllibc.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 1369375 END: 1751103311891963648 :git command /root/workspace/project/sel4test/.repo/project-objects/musllibc.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/musllibc.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/musllibc.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 1369375 START: 1751103311892096768 :git command /root/workspace/project/sel4test/.repo/project-objects/musllibc.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/musllibc.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/musllibc.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 1369375 END: 1751103311893486336 :git command /root/workspace/project/sel4test/.repo/project-objects/musllibc.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/musllibc.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/musllibc.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 1369375 START: 1751103311893663232 :git command /root/workspace/project/sel4test/.repo/project-objects/musllibc.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/musllibc.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/musllibc.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 1369375 END: 1751103311895424256 :git command /root/workspace/project/sel4test/.repo/project-objects/musllibc.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/musllibc.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/musllibc.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 1369375 START: 1751103311895602944 :git command /root/workspace/project/sel4test/.repo/project-objects/musllibc.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/musllibc.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'ssh://git@github.com/seL4/musllibc.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/musllibc.git/config --includes --replace-all remote.seL4.url ssh://git@github.com/seL4/musllibc.git 1>| 2>|
+
+PID: 1369375 END: 1751103311897010176 :git command /root/workspace/project/sel4test/.repo/project-objects/musllibc.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/musllibc.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'ssh://git@github.com/seL4/musllibc.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/musllibc.git/config --includes --replace-all remote.seL4.url ssh://git@github.com/seL4/musllibc.git 1>| 2>|
+
+PID: 1369375 START: 1751103311897143296 :git command /root/workspace/project/sel4test/.repo/project-objects/musllibc.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/musllibc.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'musllibc.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/musllibc.git/config --includes --replace-all remote.seL4.projectname musllibc.git 1>| 2>|
+
+PID: 1369375 END: 1751103311898470144 :git command /root/workspace/project/sel4test/.repo/project-objects/musllibc.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/musllibc.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'musllibc.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/musllibc.git/config --includes --replace-all remote.seL4.projectname musllibc.git 1>| 2>|
+
+PID: 1369375 START: 1751103311898609920 :git command /root/workspace/project/sel4test/.repo/project-objects/musllibc.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/musllibc.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/musllibc.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 1369375 END: 1751103311900004608 :git command /root/workspace/project/sel4test/.repo/project-objects/musllibc.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/musllibc.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/musllibc.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 1369375 START: 1751103311900568320 :git command /root/workspace/project/sel4test/.repo/projects/projects/musllibc.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/sel4:refs/remotes/seL4/sel4', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/projects/projects/musllibc.git
+: export GIT_OBJECT_DIRECTORY=/root/workspace/project/sel4test/.repo/project-objects/musllibc.git.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/sel4:refs/remotes/seL4/sel4 +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 1369375 END: 1751103315857806848 :git command /root/workspace/project/sel4test/.repo/projects/projects/musllibc.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/sel4:refs/remotes/seL4/sel4', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/projects/projects/musllibc.git
+: export GIT_OBJECT_DIRECTORY=/root/workspace/project/sel4test/.repo/project-objects/musllibc.git.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/sel4:refs/remotes/seL4/sel4 +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 1369375 START: 1751103315858042112 :git command /root/workspace/project/sel4test/.repo/projects/projects/musllibc.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 1369375 END: 1751103315861698304 :git command /root/workspace/project/sel4test/.repo/projects/projects/musllibc.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 1369375 START: 1751103315861813504 :: load refs /root/workspace/project/sel4test/.repo/projects/projects/musllibc.git
+
+PID: 1369375 END: 1751103315862053888 :: load refs /root/workspace/project/sel4test/.repo/projects/projects/musllibc.git
+
+PID: 1369375 START: 1751103315862087424 :: scan refs /root/workspace/project/sel4test/.repo/projects/projects/musllibc.git
+
+PID: 1369375 END: 1751103315862119680 :: scan refs /root/workspace/project/sel4test/.repo/projects/projects/musllibc.git
+
+PID: 1369375 START: 1751103315862248192 :git command /root/workspace/project/sel4test/.repo/projects/projects/musllibc.git ['git', 'update-ref', '-m', 'manifest set to c9249738defe1ddd14f7d4b634dc5d945e7d00bb', '--no-deref', 'refs/remotes/m/master', 'c9249738defe1ddd14f7d4b634dc5d945e7d00bb^0'] with debug: : git update-ref -m manifest set to c9249738defe1ddd14f7d4b634dc5d945e7d00bb --no-deref refs/remotes/m/master c9249738defe1ddd14f7d4b634dc5d945e7d00bb^0 1>| 2>|
+
+PID: 1369375 END: 1751103315864149760 :git command /root/workspace/project/sel4test/.repo/projects/projects/musllibc.git ['git', 'update-ref', '-m', 'manifest set to c9249738defe1ddd14f7d4b634dc5d945e7d00bb', '--no-deref', 'refs/remotes/m/master', 'c9249738defe1ddd14f7d4b634dc5d945e7d00bb^0'] with debug: : git update-ref -m manifest set to c9249738defe1ddd14f7d4b634dc5d945e7d00bb --no-deref refs/remotes/m/master c9249738defe1ddd14f7d4b634dc5d945e7d00bb^0 1>| 2>|
+
+PID: 1369375 START: 1751103315864792320 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_libs.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/project-objects/seL4_libs.git.git
+: git init 1>| 2>|
+
+PID: 1369375 END: 1751103315868776960 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_libs.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/project-objects/seL4_libs.git.git
+: git init 1>| 2>|
+
+PID: 1369375 START: 1751103315870899712 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_libs.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git/config', '--includes', '--null', '--list'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git/config --includes --null --list 1>| 2>|
+
+PID: 1369375 END: 1751103315872288768 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_libs.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git/config', '--includes', '--null', '--list'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git/config --includes --null --list 1>| 2>|
+
+PID: 1369375 START: 1751103315872541952 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_libs.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 1369375 END: 1751103315873973504 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_libs.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 1369375 START: 1751103315874103296 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_libs.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 1369375 END: 1751103315875552256 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_libs.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 1369375 START: 1751103315875760896 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_libs.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 1369375 END: 1751103315877153792 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_libs.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 1369375 START: 1751103315877317888 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_libs.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'ssh://git@github.com/seL4/seL4_libs.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git/config --includes --replace-all remote.seL4.url ssh://git@github.com/seL4/seL4_libs.git 1>| 2>|
+
+PID: 1369375 END: 1751103315878599680 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_libs.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'ssh://git@github.com/seL4/seL4_libs.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git/config --includes --replace-all remote.seL4.url ssh://git@github.com/seL4/seL4_libs.git 1>| 2>|
+
+PID: 1369375 START: 1751103315878787840 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_libs.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'seL4_libs.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git/config --includes --replace-all remote.seL4.projectname seL4_libs.git 1>| 2>|
+
+PID: 1369375 END: 1751103315880208896 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_libs.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'seL4_libs.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git/config --includes --replace-all remote.seL4.projectname seL4_libs.git 1>| 2>|
+
+PID: 1369375 START: 1751103315880353536 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_libs.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 1369375 END: 1751103315881832704 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_libs.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 1369375 START: 1751103315882387200 :git command /root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/master:refs/remotes/seL4/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git
+: export GIT_OBJECT_DIRECTORY=/root/workspace/project/sel4test/.repo/project-objects/seL4_libs.git.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 1369375 END: 1751103317809662464 :git command /root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/master:refs/remotes/seL4/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git
+: export GIT_OBJECT_DIRECTORY=/root/workspace/project/sel4test/.repo/project-objects/seL4_libs.git.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 1369375 START: 1751103317809894656 :git command /root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 1369375 END: 1751103317813637632 :git command /root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 1369375 START: 1751103317813734144 :: load refs /root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git
+
+PID: 1369375 END: 1751103317813944576 :: load refs /root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git
+
+PID: 1369375 START: 1751103317813980928 :: scan refs /root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git
+
+PID: 1369375 END: 1751103317814012928 :: scan refs /root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git
+
+PID: 1369375 START: 1751103317814130176 :git command /root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git ['git', 'update-ref', '-m', 'manifest set to 959d4c38b8ace52ac2082f4d29ed1ce6f7b33536', '--no-deref', 'refs/remotes/m/master', '959d4c38b8ace52ac2082f4d29ed1ce6f7b33536^0'] with debug: : git update-ref -m manifest set to 959d4c38b8ace52ac2082f4d29ed1ce6f7b33536 --no-deref refs/remotes/m/master 959d4c38b8ace52ac2082f4d29ed1ce6f7b33536^0 1>| 2>|
+
+PID: 1369375 END: 1751103317815933184 :git command /root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git ['git', 'update-ref', '-m', 'manifest set to 959d4c38b8ace52ac2082f4d29ed1ce6f7b33536', '--no-deref', 'refs/remotes/m/master', '959d4c38b8ace52ac2082f4d29ed1ce6f7b33536^0'] with debug: : git update-ref -m manifest set to 959d4c38b8ace52ac2082f4d29ed1ce6f7b33536 --no-deref refs/remotes/m/master 959d4c38b8ace52ac2082f4d29ed1ce6f7b33536^0 1>| 2>|
+
+PID: 1369375 START: 1751103317816583168 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4_projects_libs.git ['git', 'init'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/project-objects/sel4_projects_libs.git
+: git init 1>| 2>|
+
+PID: 1369375 END: 1751103317819372288 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4_projects_libs.git ['git', 'init'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/project-objects/sel4_projects_libs.git
+: git init 1>| 2>|
+
+PID: 1369375 START: 1751103317821222144 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4_projects_libs.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git/config', '--includes', '--null', '--list'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git/config --includes --null --list 1>| 2>|
+
+PID: 1369375 END: 1751103317822446848 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4_projects_libs.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git/config', '--includes', '--null', '--list'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git/config --includes --null --list 1>| 2>|
+
+PID: 1369375 START: 1751103317822665728 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4_projects_libs.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 1369375 END: 1751103317824069632 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4_projects_libs.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 1369375 START: 1751103317824201216 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4_projects_libs.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 1369375 END: 1751103317825537792 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4_projects_libs.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 1369375 START: 1751103317825666048 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4_projects_libs.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 1369375 END: 1751103317827230720 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4_projects_libs.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 1369375 START: 1751103317827393024 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4_projects_libs.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'ssh://git@github.com/seL4/sel4_projects_libs'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git/config --includes --replace-all remote.seL4.url ssh://git@github.com/seL4/sel4_projects_libs 1>| 2>|
+
+PID: 1369375 END: 1751103317828733696 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4_projects_libs.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'ssh://git@github.com/seL4/sel4_projects_libs'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git/config --includes --replace-all remote.seL4.url ssh://git@github.com/seL4/sel4_projects_libs 1>| 2>|
+
+PID: 1369375 START: 1751103317828867840 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4_projects_libs.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'sel4_projects_libs'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git/config --includes --replace-all remote.seL4.projectname sel4_projects_libs 1>| 2>|
+
+PID: 1369375 END: 1751103317830110208 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4_projects_libs.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'sel4_projects_libs'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git/config --includes --replace-all remote.seL4.projectname sel4_projects_libs 1>| 2>|
+
+PID: 1369375 START: 1751103317830243840 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4_projects_libs.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 1369375 END: 1751103317831569408 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4_projects_libs.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 1369375 START: 1751103317832086528 :git command /root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/master:refs/remotes/seL4/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git
+: export GIT_OBJECT_DIRECTORY=/root/workspace/project/sel4test/.repo/project-objects/sel4_projects_libs.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 1369375 END: 1751103319525723392 :git command /root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/master:refs/remotes/seL4/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git
+: export GIT_OBJECT_DIRECTORY=/root/workspace/project/sel4test/.repo/project-objects/sel4_projects_libs.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 1369375 START: 1751103319525968896 :git command /root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 1369375 END: 1751103319528872448 :git command /root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 1369375 START: 1751103319528983552 :: load refs /root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git
+
+PID: 1369375 END: 1751103319529182720 :: load refs /root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git
+
+PID: 1369375 START: 1751103319529211136 :: scan refs /root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git
+
+PID: 1369375 END: 1751103319529242624 :: scan refs /root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git
+
+PID: 1369375 START: 1751103319529357312 :git command /root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git ['git', 'update-ref', '-m', 'manifest set to 46f6dc9c0c38a09b75531e547308cb3dcaec53cd', '--no-deref', 'refs/remotes/m/master', '46f6dc9c0c38a09b75531e547308cb3dcaec53cd^0'] with debug: : git update-ref -m manifest set to 46f6dc9c0c38a09b75531e547308cb3dcaec53cd --no-deref refs/remotes/m/master 46f6dc9c0c38a09b75531e547308cb3dcaec53cd^0 1>| 2>|
+
+PID: 1369375 END: 1751103319531119104 :git command /root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git ['git', 'update-ref', '-m', 'manifest set to 46f6dc9c0c38a09b75531e547308cb3dcaec53cd', '--no-deref', 'refs/remotes/m/master', '46f6dc9c0c38a09b75531e547308cb3dcaec53cd^0'] with debug: : git update-ref -m manifest set to 46f6dc9c0c38a09b75531e547308cb3dcaec53cd --no-deref refs/remotes/m/master 46f6dc9c0c38a09b75531e547308cb3dcaec53cd^0 1>| 2>|
+
+PID: 1369375 START: 1751103319531786496 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4runtime.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/project-objects/sel4runtime.git.git
+: git init 1>| 2>|
+
+PID: 1369375 END: 1751103319534695168 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4runtime.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/project-objects/sel4runtime.git.git
+: git init 1>| 2>|
+
+PID: 1369375 START: 1751103319536609536 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4runtime.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git/config', '--includes', '--null', '--list'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git/config --includes --null --list 1>| 2>|
+
+PID: 1369375 END: 1751103319537862912 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4runtime.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git/config', '--includes', '--null', '--list'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git/config --includes --null --list 1>| 2>|
+
+PID: 1369375 START: 1751103319538070016 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4runtime.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 1369375 END: 1751103319539443200 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4runtime.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 1369375 START: 1751103319539578112 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4runtime.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 1369375 END: 1751103319540866560 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4runtime.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 1369375 START: 1751103319541003520 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4runtime.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 1369375 END: 1751103319542328064 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4runtime.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 1369375 START: 1751103319542536704 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4runtime.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'ssh://git@github.com/seL4/sel4runtime.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git/config --includes --replace-all remote.seL4.url ssh://git@github.com/seL4/sel4runtime.git 1>| 2>|
+
+PID: 1369375 END: 1751103319543862016 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4runtime.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'ssh://git@github.com/seL4/sel4runtime.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git/config --includes --replace-all remote.seL4.url ssh://git@github.com/seL4/sel4runtime.git 1>| 2>|
+
+PID: 1369375 START: 1751103319544001280 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4runtime.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'sel4runtime.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git/config --includes --replace-all remote.seL4.projectname sel4runtime.git 1>| 2>|
+
+PID: 1369375 END: 1751103319545347328 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4runtime.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'sel4runtime.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git/config --includes --replace-all remote.seL4.projectname sel4runtime.git 1>| 2>|
+
+PID: 1369375 START: 1751103319545478144 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4runtime.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 1369375 END: 1751103319546866176 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4runtime.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 1369375 START: 1751103319547404288 :git command /root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/master:refs/remotes/seL4/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git
+: export GIT_OBJECT_DIRECTORY=/root/workspace/project/sel4test/.repo/project-objects/sel4runtime.git.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 1369375 END: 1751103321259396864 :git command /root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/master:refs/remotes/seL4/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git
+: export GIT_OBJECT_DIRECTORY=/root/workspace/project/sel4test/.repo/project-objects/sel4runtime.git.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 1369375 START: 1751103321259644928 :git command /root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 1369375 END: 1751103321261850880 :git command /root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 1369375 START: 1751103321261951744 :: load refs /root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git
+
+PID: 1369375 END: 1751103321262148096 :: load refs /root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git
+
+PID: 1369375 START: 1751103321262186752 :: scan refs /root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git
+
+PID: 1369375 END: 1751103321262220288 :: scan refs /root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git
+
+PID: 1369375 START: 1751103321262334464 :git command /root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git ['git', 'update-ref', '-m', 'manifest set to 86489cf6efab9f314964e79468c036e9035394c7', '--no-deref', 'refs/remotes/m/master', '86489cf6efab9f314964e79468c036e9035394c7^0'] with debug: : git update-ref -m manifest set to 86489cf6efab9f314964e79468c036e9035394c7 --no-deref refs/remotes/m/master 86489cf6efab9f314964e79468c036e9035394c7^0 1>| 2>|
+
+PID: 1369375 END: 1751103321264073216 :git command /root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git ['git', 'update-ref', '-m', 'manifest set to 86489cf6efab9f314964e79468c036e9035394c7', '--no-deref', 'refs/remotes/m/master', '86489cf6efab9f314964e79468c036e9035394c7^0'] with debug: : git update-ref -m manifest set to 86489cf6efab9f314964e79468c036e9035394c7 --no-deref refs/remotes/m/master 86489cf6efab9f314964e79468c036e9035394c7^0 1>| 2>|
+
+PID: 1369375 START: 1751103321264735232 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4test.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/project-objects/sel4test.git.git
+: git init 1>| 2>|
+
+PID: 1369375 END: 1751103321267511040 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4test.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/project-objects/sel4test.git.git
+: git init 1>| 2>|
+
+PID: 1369375 START: 1751103321269436672 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4test.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4test.git/config', '--includes', '--null', '--list'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4test.git/config --includes --null --list 1>| 2>|
+
+PID: 1369375 END: 1751103321270752768 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4test.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4test.git/config', '--includes', '--null', '--list'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4test.git/config --includes --null --list 1>| 2>|
+
+PID: 1369375 START: 1751103321270957824 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4test.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4test.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4test.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 1369375 END: 1751103321272217344 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4test.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4test.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4test.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 1369375 START: 1751103321272347904 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4test.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4test.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4test.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 1369375 END: 1751103321273606144 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4test.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4test.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4test.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 1369375 START: 1751103321273740800 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4test.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4test.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4test.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 1369375 END: 1751103321275089408 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4test.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4test.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4test.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 1369375 START: 1751103321275251968 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4test.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4test.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'ssh://git@github.com/seL4/sel4test.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4test.git/config --includes --replace-all remote.seL4.url ssh://git@github.com/seL4/sel4test.git 1>| 2>|
+
+PID: 1369375 END: 1751103321276579584 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4test.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4test.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'ssh://git@github.com/seL4/sel4test.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4test.git/config --includes --replace-all remote.seL4.url ssh://git@github.com/seL4/sel4test.git 1>| 2>|
+
+PID: 1369375 START: 1751103321276712192 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4test.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4test.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'sel4test.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4test.git/config --includes --replace-all remote.seL4.projectname sel4test.git 1>| 2>|
+
+PID: 1369375 END: 1751103321277963008 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4test.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4test.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'sel4test.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4test.git/config --includes --replace-all remote.seL4.projectname sel4test.git 1>| 2>|
+
+PID: 1369375 START: 1751103321278111488 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4test.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4test.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4test.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 1369375 END: 1751103321279453440 :git command /root/workspace/project/sel4test/.repo/project-objects/sel4test.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/sel4test.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/sel4test.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 1369375 START: 1751103321279978752 :git command /root/workspace/project/sel4test/.repo/projects/projects/sel4test.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/master:refs/remotes/seL4/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/projects/projects/sel4test.git
+: export GIT_OBJECT_DIRECTORY=/root/workspace/project/sel4test/.repo/project-objects/sel4test.git.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 1369375 END: 1751103323022967040 :git command /root/workspace/project/sel4test/.repo/projects/projects/sel4test.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/master:refs/remotes/seL4/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/projects/projects/sel4test.git
+: export GIT_OBJECT_DIRECTORY=/root/workspace/project/sel4test/.repo/project-objects/sel4test.git.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 1369375 START: 1751103323023198464 :git command /root/workspace/project/sel4test/.repo/projects/projects/sel4test.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 1369375 END: 1751103323027261184 :git command /root/workspace/project/sel4test/.repo/projects/projects/sel4test.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 1369375 START: 1751103323027378688 :: load refs /root/workspace/project/sel4test/.repo/projects/projects/sel4test.git
+
+PID: 1369375 END: 1751103323027614976 :: load refs /root/workspace/project/sel4test/.repo/projects/projects/sel4test.git
+
+PID: 1369375 START: 1751103323027646464 :: scan refs /root/workspace/project/sel4test/.repo/projects/projects/sel4test.git
+
+PID: 1369375 END: 1751103323027678976 :: scan refs /root/workspace/project/sel4test/.repo/projects/projects/sel4test.git
+
+PID: 1369375 START: 1751103323027800064 :git command /root/workspace/project/sel4test/.repo/projects/projects/sel4test.git ['git', 'update-ref', '-m', 'manifest set to 1957e33a1a5eb7cc4c5f8a80c3e63adc10100946', '--no-deref', 'refs/remotes/m/master', '1957e33a1a5eb7cc4c5f8a80c3e63adc10100946^0'] with debug: : git update-ref -m manifest set to 1957e33a1a5eb7cc4c5f8a80c3e63adc10100946 --no-deref refs/remotes/m/master 1957e33a1a5eb7cc4c5f8a80c3e63adc10100946^0 1>| 2>|
+
+PID: 1369375 END: 1751103323029636096 :git command /root/workspace/project/sel4test/.repo/projects/projects/sel4test.git ['git', 'update-ref', '-m', 'manifest set to 1957e33a1a5eb7cc4c5f8a80c3e63adc10100946', '--no-deref', 'refs/remotes/m/master', '1957e33a1a5eb7cc4c5f8a80c3e63adc10100946^0'] with debug: : git update-ref -m manifest set to 1957e33a1a5eb7cc4c5f8a80c3e63adc10100946 --no-deref refs/remotes/m/master 1957e33a1a5eb7cc4c5f8a80c3e63adc10100946^0 1>| 2>|
+
+PID: 1369375 START: 1751103323030285056 :git command /root/workspace/project/sel4test/.repo/project-objects/util_libs.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/project-objects/util_libs.git.git
+: git init 1>| 2>|
+
+PID: 1369375 END: 1751103323033153792 :git command /root/workspace/project/sel4test/.repo/project-objects/util_libs.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/project-objects/util_libs.git.git
+: git init 1>| 2>|
+
+PID: 1369375 START: 1751103323035067392 :git command /root/workspace/project/sel4test/.repo/project-objects/util_libs.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/util_libs.git/config', '--includes', '--null', '--list'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/util_libs.git/config --includes --null --list 1>| 2>|
+
+PID: 1369375 END: 1751103323036449792 :git command /root/workspace/project/sel4test/.repo/project-objects/util_libs.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/util_libs.git/config', '--includes', '--null', '--list'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/util_libs.git/config --includes --null --list 1>| 2>|
+
+PID: 1369375 START: 1751103323036667136 :git command /root/workspace/project/sel4test/.repo/project-objects/util_libs.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/util_libs.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/util_libs.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 1369375 END: 1751103323037991424 :git command /root/workspace/project/sel4test/.repo/project-objects/util_libs.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/util_libs.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/util_libs.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 1369375 START: 1751103323038146560 :git command /root/workspace/project/sel4test/.repo/project-objects/util_libs.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/util_libs.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/util_libs.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 1369375 END: 1751103323039520512 :git command /root/workspace/project/sel4test/.repo/project-objects/util_libs.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/util_libs.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/util_libs.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 1369375 START: 1751103323039676416 :git command /root/workspace/project/sel4test/.repo/project-objects/util_libs.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/util_libs.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/util_libs.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 1369375 END: 1751103323040994816 :git command /root/workspace/project/sel4test/.repo/project-objects/util_libs.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/util_libs.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/util_libs.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 1369375 START: 1751103323041158144 :git command /root/workspace/project/sel4test/.repo/project-objects/util_libs.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/util_libs.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'ssh://git@github.com/seL4/util_libs.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/util_libs.git/config --includes --replace-all remote.seL4.url ssh://git@github.com/seL4/util_libs.git 1>| 2>|
+
+PID: 1369375 END: 1751103323042500352 :git command /root/workspace/project/sel4test/.repo/project-objects/util_libs.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/util_libs.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'ssh://git@github.com/seL4/util_libs.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/util_libs.git/config --includes --replace-all remote.seL4.url ssh://git@github.com/seL4/util_libs.git 1>| 2>|
+
+PID: 1369375 START: 1751103323042638336 :git command /root/workspace/project/sel4test/.repo/project-objects/util_libs.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/util_libs.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'util_libs.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/util_libs.git/config --includes --replace-all remote.seL4.projectname util_libs.git 1>| 2>|
+
+PID: 1369375 END: 1751103323044026880 :git command /root/workspace/project/sel4test/.repo/project-objects/util_libs.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/util_libs.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'util_libs.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/util_libs.git/config --includes --replace-all remote.seL4.projectname util_libs.git 1>| 2>|
+
+PID: 1369375 START: 1751103323044161024 :git command /root/workspace/project/sel4test/.repo/project-objects/util_libs.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/util_libs.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/util_libs.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 1369375 END: 1751103323045496832 :git command /root/workspace/project/sel4test/.repo/project-objects/util_libs.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/projects/util_libs.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/projects/util_libs.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 1369375 START: 1751103323046025728 :git command /root/workspace/project/sel4test/.repo/projects/projects/util_libs.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/master:refs/remotes/seL4/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/projects/projects/util_libs.git
+: export GIT_OBJECT_DIRECTORY=/root/workspace/project/sel4test/.repo/project-objects/util_libs.git.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 1369375 END: 1751103325009980672 :git command /root/workspace/project/sel4test/.repo/projects/projects/util_libs.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/master:refs/remotes/seL4/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/projects/projects/util_libs.git
+: export GIT_OBJECT_DIRECTORY=/root/workspace/project/sel4test/.repo/project-objects/util_libs.git.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 1369375 START: 1751103325010201856 :git command /root/workspace/project/sel4test/.repo/projects/projects/util_libs.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 1369375 END: 1751103325014057728 :git command /root/workspace/project/sel4test/.repo/projects/projects/util_libs.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 1369375 START: 1751103325014168320 :: load refs /root/workspace/project/sel4test/.repo/projects/projects/util_libs.git
+
+PID: 1369375 END: 1751103325014388736 :: load refs /root/workspace/project/sel4test/.repo/projects/projects/util_libs.git
+
+PID: 1369375 START: 1751103325014419456 :: scan refs /root/workspace/project/sel4test/.repo/projects/projects/util_libs.git
+
+PID: 1369375 END: 1751103325014462464 :: scan refs /root/workspace/project/sel4test/.repo/projects/projects/util_libs.git
+
+PID: 1369375 START: 1751103325014622464 :git command /root/workspace/project/sel4test/.repo/projects/projects/util_libs.git ['git', 'update-ref', '-m', 'manifest set to f8ac370203d8b65cfd4b573fdd1f27c4850351df', '--no-deref', 'refs/remotes/m/master', 'f8ac370203d8b65cfd4b573fdd1f27c4850351df^0'] with debug: : git update-ref -m manifest set to f8ac370203d8b65cfd4b573fdd1f27c4850351df --no-deref refs/remotes/m/master f8ac370203d8b65cfd4b573fdd1f27c4850351df^0 1>| 2>|
+
+PID: 1369375 END: 1751103325016560896 :git command /root/workspace/project/sel4test/.repo/projects/projects/util_libs.git ['git', 'update-ref', '-m', 'manifest set to f8ac370203d8b65cfd4b573fdd1f27c4850351df', '--no-deref', 'refs/remotes/m/master', 'f8ac370203d8b65cfd4b573fdd1f27c4850351df^0'] with debug: : git update-ref -m manifest set to f8ac370203d8b65cfd4b573fdd1f27c4850351df --no-deref refs/remotes/m/master f8ac370203d8b65cfd4b573fdd1f27c4850351df^0 1>| 2>|
+
+PID: 1369375 START: 1751103325017208320 :git command /root/workspace/project/sel4test/.repo/project-objects/nanopb.git ['git', 'init'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/project-objects/nanopb.git
+: git init 1>| 2>|
+
+PID: 1369375 END: 1751103325020069632 :git command /root/workspace/project/sel4test/.repo/project-objects/nanopb.git ['git', 'init'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/project-objects/nanopb.git
+: git init 1>| 2>|
+
+PID: 1369375 START: 1751103325022035200 :git command /root/workspace/project/sel4test/.repo/project-objects/nanopb.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/nanopb.git/config', '--includes', '--null', '--list'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/nanopb.git/config --includes --null --list 1>| 2>|
+
+PID: 1369375 END: 1751103325023364864 :git command /root/workspace/project/sel4test/.repo/project-objects/nanopb.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/nanopb.git/config', '--includes', '--null', '--list'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/nanopb.git/config --includes --null --list 1>| 2>|
+
+PID: 1369375 START: 1751103325023582208 :git command /root/workspace/project/sel4test/.repo/project-objects/nanopb.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/nanopb.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/nanopb.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 1369375 END: 1751103325024969984 :git command /root/workspace/project/sel4test/.repo/project-objects/nanopb.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/nanopb.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/nanopb.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 1369375 START: 1751103325025104640 :git command /root/workspace/project/sel4test/.repo/project-objects/nanopb.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/nanopb.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/nanopb.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 1369375 END: 1751103325026464000 :git command /root/workspace/project/sel4test/.repo/project-objects/nanopb.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/nanopb.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/nanopb.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 1369375 START: 1751103325026601216 :git command /root/workspace/project/sel4test/.repo/project-objects/nanopb.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/nanopb.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/nanopb.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 1369375 END: 1751103325027981056 :git command /root/workspace/project/sel4test/.repo/project-objects/nanopb.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/nanopb.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/nanopb.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 1369375 START: 1751103325028144128 :git command /root/workspace/project/sel4test/.repo/project-objects/nanopb.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/nanopb.git/config', '--includes', '--replace-all', 'remote.nanopb.url', 'https://github.com/nanopb/nanopb'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/nanopb.git/config --includes --replace-all remote.nanopb.url https://github.com/nanopb/nanopb 1>| 2>|
+
+PID: 1369375 END: 1751103325029438464 :git command /root/workspace/project/sel4test/.repo/project-objects/nanopb.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/nanopb.git/config', '--includes', '--replace-all', 'remote.nanopb.url', 'https://github.com/nanopb/nanopb'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/nanopb.git/config --includes --replace-all remote.nanopb.url https://github.com/nanopb/nanopb 1>| 2>|
+
+PID: 1369375 START: 1751103325029596672 :git command /root/workspace/project/sel4test/.repo/project-objects/nanopb.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/nanopb.git/config', '--includes', '--replace-all', 'remote.nanopb.projectname', 'nanopb'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/nanopb.git/config --includes --replace-all remote.nanopb.projectname nanopb 1>| 2>|
+
+PID: 1369375 END: 1751103325031058432 :git command /root/workspace/project/sel4test/.repo/project-objects/nanopb.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/nanopb.git/config', '--includes', '--replace-all', 'remote.nanopb.projectname', 'nanopb'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/nanopb.git/config --includes --replace-all remote.nanopb.projectname nanopb 1>| 2>|
+
+PID: 1369375 START: 1751103325031192832 :git command /root/workspace/project/sel4test/.repo/project-objects/nanopb.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/nanopb.git/config', '--includes', '--replace-all', 'remote.nanopb.fetch', '+refs/heads/*:refs/remotes/nanopb/*'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/nanopb.git/config --includes --replace-all remote.nanopb.fetch +refs/heads/*:refs/remotes/nanopb/* 1>| 2>|
+
+PID: 1369375 END: 1751103325032515072 :git command /root/workspace/project/sel4test/.repo/project-objects/nanopb.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/nanopb.git/config', '--includes', '--replace-all', 'remote.nanopb.fetch', '+refs/heads/*:refs/remotes/nanopb/*'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/nanopb.git/config --includes --replace-all remote.nanopb.fetch +refs/heads/*:refs/remotes/nanopb/* 1>| 2>|
+
+PID: 1369375 START: 1751103325032683776 :Fetching bundle: curl --fail --output /root/workspace/project/sel4test/.repo/projects/tools/nanopb.git/clone.bundle.tmp --netrc-optional --location https://github.com/nanopb/nanopb/clone.bundle
+
+PID: 1369375 END: 1751103325033057536 :Fetching bundle: curl --fail --output /root/workspace/project/sel4test/.repo/projects/tools/nanopb.git/clone.bundle.tmp --netrc-optional --location https://github.com/nanopb/nanopb/clone.bundle
+
+PID: 1369375 START: 1751103325724104960 :git command /root/workspace/project/sel4test/.repo/projects/tools/nanopb.git ['git', 'fetch', '--quiet', '--progress', 'nanopb', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/nanopb/*', '+refs/heads/master:refs/remotes/nanopb/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/projects/tools/nanopb.git
+: export GIT_OBJECT_DIRECTORY=/root/workspace/project/sel4test/.repo/project-objects/nanopb.git/objects
+: git fetch --quiet --progress nanopb --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/nanopb/* +refs/heads/master:refs/remotes/nanopb/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 1369375 END: 1751103328020153344 :git command /root/workspace/project/sel4test/.repo/projects/tools/nanopb.git ['git', 'fetch', '--quiet', '--progress', 'nanopb', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/nanopb/*', '+refs/heads/master:refs/remotes/nanopb/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/projects/tools/nanopb.git
+: export GIT_OBJECT_DIRECTORY=/root/workspace/project/sel4test/.repo/project-objects/nanopb.git/objects
+: git fetch --quiet --progress nanopb --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/nanopb/* +refs/heads/master:refs/remotes/nanopb/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 1369375 START: 1751103328020381184 :git command /root/workspace/project/sel4test/.repo/projects/tools/nanopb.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 1369375 END: 1751103328028375296 :git command /root/workspace/project/sel4test/.repo/projects/tools/nanopb.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 1369375 START: 1751103328028513792 :: load refs /root/workspace/project/sel4test/.repo/projects/tools/nanopb.git
+
+PID: 1369375 END: 1751103328028813312 :: load refs /root/workspace/project/sel4test/.repo/projects/tools/nanopb.git
+
+PID: 1369375 START: 1751103328028845056 :: scan refs /root/workspace/project/sel4test/.repo/projects/tools/nanopb.git
+
+PID: 1369375 END: 1751103328028882432 :: scan refs /root/workspace/project/sel4test/.repo/projects/tools/nanopb.git
+
+PID: 1369375 START: 1751103328029008640 :git command /root/workspace/project/sel4test/.repo/projects/tools/nanopb.git ['git', 'update-ref', '-m', 'manifest set to 1466e6f953835b191a7f5acf0c06c941d4cd33d9', '--no-deref', 'refs/remotes/m/master', '1466e6f953835b191a7f5acf0c06c941d4cd33d9^0'] with debug: : git update-ref -m manifest set to 1466e6f953835b191a7f5acf0c06c941d4cd33d9 --no-deref refs/remotes/m/master 1466e6f953835b191a7f5acf0c06c941d4cd33d9^0 1>| 2>|
+
+PID: 1369375 END: 1751103328030758912 :git command /root/workspace/project/sel4test/.repo/projects/tools/nanopb.git ['git', 'update-ref', '-m', 'manifest set to 1466e6f953835b191a7f5acf0c06c941d4cd33d9', '--no-deref', 'refs/remotes/m/master', '1466e6f953835b191a7f5acf0c06c941d4cd33d9^0'] with debug: : git update-ref -m manifest set to 1466e6f953835b191a7f5acf0c06c941d4cd33d9 --no-deref refs/remotes/m/master 1466e6f953835b191a7f5acf0c06c941d4cd33d9^0 1>| 2>|
+
+PID: 1369375 START: 1751103328031416576 :git command /root/workspace/project/sel4test/.repo/project-objects/opensbi.git ['git', 'init'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/project-objects/opensbi.git
+: git init 1>| 2>|
+
+PID: 1369375 END: 1751103328034057472 :git command /root/workspace/project/sel4test/.repo/project-objects/opensbi.git ['git', 'init'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/project-objects/opensbi.git
+: git init 1>| 2>|
+
+PID: 1369375 START: 1751103328036155392 :git command /root/workspace/project/sel4test/.repo/project-objects/opensbi.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/opensbi.git/config', '--includes', '--null', '--list'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/opensbi.git/config --includes --null --list 1>| 2>|
+
+PID: 1369375 END: 1751103328037362432 :git command /root/workspace/project/sel4test/.repo/project-objects/opensbi.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/opensbi.git/config', '--includes', '--null', '--list'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/opensbi.git/config --includes --null --list 1>| 2>|
+
+PID: 1369375 START: 1751103328037578752 :git command /root/workspace/project/sel4test/.repo/project-objects/opensbi.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/opensbi.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/opensbi.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 1369375 END: 1751103328038948864 :git command /root/workspace/project/sel4test/.repo/project-objects/opensbi.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/opensbi.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/opensbi.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 1369375 START: 1751103328039086848 :git command /root/workspace/project/sel4test/.repo/project-objects/opensbi.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/opensbi.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/opensbi.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 1369375 END: 1751103328040338432 :git command /root/workspace/project/sel4test/.repo/project-objects/opensbi.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/opensbi.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/opensbi.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 1369375 START: 1751103328040489728 :git command /root/workspace/project/sel4test/.repo/project-objects/opensbi.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/opensbi.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/opensbi.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 1369375 END: 1751103328041761536 :git command /root/workspace/project/sel4test/.repo/project-objects/opensbi.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/opensbi.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/opensbi.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 1369375 START: 1751103328041920256 :git command /root/workspace/project/sel4test/.repo/project-objects/opensbi.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/opensbi.git/config', '--includes', '--replace-all', 'remote.opensbi.url', 'https://github.com/riscv/opensbi'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/opensbi.git/config --includes --replace-all remote.opensbi.url https://github.com/riscv/opensbi 1>| 2>|
+
+PID: 1369375 END: 1751103328043236096 :git command /root/workspace/project/sel4test/.repo/project-objects/opensbi.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/opensbi.git/config', '--includes', '--replace-all', 'remote.opensbi.url', 'https://github.com/riscv/opensbi'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/opensbi.git/config --includes --replace-all remote.opensbi.url https://github.com/riscv/opensbi 1>| 2>|
+
+PID: 1369375 START: 1751103328043410176 :git command /root/workspace/project/sel4test/.repo/project-objects/opensbi.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/opensbi.git/config', '--includes', '--replace-all', 'remote.opensbi.projectname', 'opensbi'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/opensbi.git/config --includes --replace-all remote.opensbi.projectname opensbi 1>| 2>|
+
+PID: 1369375 END: 1751103328044819968 :git command /root/workspace/project/sel4test/.repo/project-objects/opensbi.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/opensbi.git/config', '--includes', '--replace-all', 'remote.opensbi.projectname', 'opensbi'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/opensbi.git/config --includes --replace-all remote.opensbi.projectname opensbi 1>| 2>|
+
+PID: 1369375 START: 1751103328044947968 :git command /root/workspace/project/sel4test/.repo/project-objects/opensbi.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/opensbi.git/config', '--includes', '--replace-all', 'remote.opensbi.fetch', '+refs/heads/*:refs/remotes/opensbi/*'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/opensbi.git/config --includes --replace-all remote.opensbi.fetch +refs/heads/*:refs/remotes/opensbi/* 1>| 2>|
+
+PID: 1369375 END: 1751103328046282752 :git command /root/workspace/project/sel4test/.repo/project-objects/opensbi.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/opensbi.git/config', '--includes', '--replace-all', 'remote.opensbi.fetch', '+refs/heads/*:refs/remotes/opensbi/*'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/opensbi.git/config --includes --replace-all remote.opensbi.fetch +refs/heads/*:refs/remotes/opensbi/* 1>| 2>|
+
+PID: 1369375 START: 1751103328046426880 :Fetching bundle: curl --fail --output /root/workspace/project/sel4test/.repo/projects/tools/opensbi.git/clone.bundle.tmp --netrc-optional --location https://github.com/riscv/opensbi/clone.bundle
+
+PID: 1369375 END: 1751103328046890240 :Fetching bundle: curl --fail --output /root/workspace/project/sel4test/.repo/projects/tools/opensbi.git/clone.bundle.tmp --netrc-optional --location https://github.com/riscv/opensbi/clone.bundle
+
+PID: 1369375 START: 1751103328695772160 :git command /root/workspace/project/sel4test/.repo/projects/tools/opensbi.git ['git', 'fetch', '--quiet', '--progress', 'opensbi', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/opensbi/*', '+refs/tags/v0.9:refs/tags/v0.9', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/projects/tools/opensbi.git
+: export GIT_OBJECT_DIRECTORY=/root/workspace/project/sel4test/.repo/project-objects/opensbi.git/objects
+: git fetch --quiet --progress opensbi --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/opensbi/* +refs/tags/v0.9:refs/tags/v0.9 +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 1369375 END: 1751103330815240960 :git command /root/workspace/project/sel4test/.repo/projects/tools/opensbi.git ['git', 'fetch', '--quiet', '--progress', 'opensbi', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/opensbi/*', '+refs/tags/v0.9:refs/tags/v0.9', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/projects/tools/opensbi.git
+: export GIT_OBJECT_DIRECTORY=/root/workspace/project/sel4test/.repo/project-objects/opensbi.git/objects
+: git fetch --quiet --progress opensbi --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/opensbi/* +refs/tags/v0.9:refs/tags/v0.9 +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 1369375 START: 1751103330815548416 :git command /root/workspace/project/sel4test/.repo/projects/tools/opensbi.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 1369375 END: 1751103330819866368 :git command /root/workspace/project/sel4test/.repo/projects/tools/opensbi.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 1369375 START: 1751103330819980800 :: load refs /root/workspace/project/sel4test/.repo/projects/tools/opensbi.git
+
+PID: 1369375 END: 1751103330820195072 :: load refs /root/workspace/project/sel4test/.repo/projects/tools/opensbi.git
+
+PID: 1369375 START: 1751103330820225536 :: scan refs /root/workspace/project/sel4test/.repo/projects/tools/opensbi.git
+
+PID: 1369375 END: 1751103330820257280 :: scan refs /root/workspace/project/sel4test/.repo/projects/tools/opensbi.git
+
+PID: 1369375 START: 1751103330820372992 :git command /root/workspace/project/sel4test/.repo/projects/tools/opensbi.git ['git', 'update-ref', '-m', 'manifest set to 234ed8e427f4d92903123199f6590d144e0d9351', '--no-deref', 'refs/remotes/m/master', '234ed8e427f4d92903123199f6590d144e0d9351^0'] with debug: : git update-ref -m manifest set to 234ed8e427f4d92903123199f6590d144e0d9351 --no-deref refs/remotes/m/master 234ed8e427f4d92903123199f6590d144e0d9351^0 1>| 2>|
+
+PID: 1369375 END: 1751103330822134528 :git command /root/workspace/project/sel4test/.repo/projects/tools/opensbi.git ['git', 'update-ref', '-m', 'manifest set to 234ed8e427f4d92903123199f6590d144e0d9351', '--no-deref', 'refs/remotes/m/master', '234ed8e427f4d92903123199f6590d144e0d9351^0'] with debug: : git update-ref -m manifest set to 234ed8e427f4d92903123199f6590d144e0d9351 --no-deref refs/remotes/m/master 234ed8e427f4d92903123199f6590d144e0d9351^0 1>| 2>|
+
+PID: 1369375 START: 1751103330822856192 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_tools.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/project-objects/seL4_tools.git.git
+: git init 1>| 2>|
+
+PID: 1369375 END: 1751103330825732096 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_tools.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/project-objects/seL4_tools.git.git
+: git init 1>| 2>|
+
+PID: 1369375 START: 1751103330827807232 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_tools.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/seL4.git/config', '--includes', '--null', '--list'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/seL4.git/config --includes --null --list 1>| 2>|
+
+PID: 1369375 END: 1751103330829083136 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_tools.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/seL4.git/config', '--includes', '--null', '--list'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/seL4.git/config --includes --null --list 1>| 2>|
+
+PID: 1369375 START: 1751103330829346048 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_tools.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/seL4.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/seL4.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 1369375 END: 1751103330831049728 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_tools.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/seL4.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/seL4.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 1369375 START: 1751103330831180544 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_tools.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/seL4.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/seL4.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 1369375 END: 1751103330832538368 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_tools.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/seL4.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/seL4.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 1369375 START: 1751103330832709888 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_tools.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/seL4.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/seL4.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 1369375 END: 1751103330834197760 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_tools.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/seL4.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/seL4.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 1369375 START: 1751103330834413056 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_tools.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/seL4.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'ssh://git@github.com/seL4/seL4_tools.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/seL4.git/config --includes --replace-all remote.seL4.url ssh://git@github.com/seL4/seL4_tools.git 1>| 2>|
+
+PID: 1369375 END: 1751103330836199168 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_tools.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/seL4.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'ssh://git@github.com/seL4/seL4_tools.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/seL4.git/config --includes --replace-all remote.seL4.url ssh://git@github.com/seL4/seL4_tools.git 1>| 2>|
+
+PID: 1369375 START: 1751103330836332544 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_tools.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/seL4.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'seL4_tools.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/seL4.git/config --includes --replace-all remote.seL4.projectname seL4_tools.git 1>| 2>|
+
+PID: 1369375 END: 1751103330837623040 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_tools.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/seL4.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'seL4_tools.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/seL4.git/config --includes --replace-all remote.seL4.projectname seL4_tools.git 1>| 2>|
+
+PID: 1369375 START: 1751103330837796864 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_tools.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/seL4.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/seL4.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 1369375 END: 1751103330839475456 :git command /root/workspace/project/sel4test/.repo/project-objects/seL4_tools.git.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/projects/tools/seL4.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /root/workspace/project/sel4test/.repo/projects/tools/seL4.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 1369375 START: 1751103330840013312 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/master:refs/remotes/seL4/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/projects/tools/seL4.git
+: export GIT_OBJECT_DIRECTORY=/root/workspace/project/sel4test/.repo/project-objects/seL4_tools.git.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 1369375 END: 1751103332543209984 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/master:refs/remotes/seL4/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/root/workspace/project/sel4test/.repo/projects/tools/seL4.git
+: export GIT_OBJECT_DIRECTORY=/root/workspace/project/sel4test/.repo/project-objects/seL4_tools.git.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 1369375 START: 1751103332543432704 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 1369375 END: 1751103332547157760 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 1369375 START: 1751103332547281920 :: load refs /root/workspace/project/sel4test/.repo/projects/tools/seL4.git
+
+PID: 1369375 END: 1751103332547504896 :: load refs /root/workspace/project/sel4test/.repo/projects/tools/seL4.git
+
+PID: 1369375 START: 1751103332547536128 :: scan refs /root/workspace/project/sel4test/.repo/projects/tools/seL4.git
+
+PID: 1369375 END: 1751103332547567360 :: scan refs /root/workspace/project/sel4test/.repo/projects/tools/seL4.git
+
+PID: 1369375 START: 1751103332547681792 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'update-ref', '-m', 'manifest set to be89b58eefb14d57ce45a6ed7a984675ed24c2e1', '--no-deref', 'refs/remotes/m/master', 'be89b58eefb14d57ce45a6ed7a984675ed24c2e1^0'] with debug: : git update-ref -m manifest set to be89b58eefb14d57ce45a6ed7a984675ed24c2e1 --no-deref refs/remotes/m/master be89b58eefb14d57ce45a6ed7a984675ed24c2e1^0 1>| 2>|
+
+PID: 1369375 END: 1751103332549435136 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'update-ref', '-m', 'manifest set to be89b58eefb14d57ce45a6ed7a984675ed24c2e1', '--no-deref', 'refs/remotes/m/master', 'be89b58eefb14d57ce45a6ed7a984675ed24c2e1^0'] with debug: : git update-ref -m manifest set to be89b58eefb14d57ce45a6ed7a984675ed24c2e1 --no-deref refs/remotes/m/master be89b58eefb14d57ce45a6ed7a984675ed24c2e1^0 1>| 2>|
+
+PID: 1369620 START: 1751103332569395968 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /root/workspace/project/sel4test/projects/musllibc
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 1369621 START: 1751103332570655488 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /root/workspace/project/sel4test/kernel
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 1369621 END: 1751103332660982016 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /root/workspace/project/sel4test/kernel
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 1369621 START: 1751103332661257984 :: load refs /root/workspace/project/sel4test/.repo/projects/kernel.git
+
+PID: 1369621 END: 1751103332661716992 :: load refs /root/workspace/project/sel4test/.repo/projects/kernel.git
+
+PID: 1369621 START: 1751103332662589184 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /root/workspace/project/sel4test/projects/seL4_libs
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 1369620 END: 1751103332673224704 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /root/workspace/project/sel4test/projects/musllibc
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 1369620 START: 1751103332673364992 :: load refs /root/workspace/project/sel4test/.repo/projects/projects/musllibc.git
+
+PID: 1369620 END: 1751103332673679872 :: load refs /root/workspace/project/sel4test/.repo/projects/projects/musllibc.git
+
+PID: 1369620 START: 1751103332674411520 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /root/workspace/project/sel4test/projects/sel4_projects_libs
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 1369621 END: 1751103332691858432 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /root/workspace/project/sel4test/projects/seL4_libs
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 1369621 START: 1751103332691975936 :: load refs /root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git
+
+PID: 1369621 END: 1751103332692265216 :: load refs /root/workspace/project/sel4test/.repo/projects/projects/seL4_libs.git
+
+PID: 1369621 START: 1751103332692874240 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /root/workspace/project/sel4test/projects/sel4runtime
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 1369620 END: 1751103332698171136 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /root/workspace/project/sel4test/projects/sel4_projects_libs
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 1369620 START: 1751103332698311680 :: load refs /root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git
+
+PID: 1369620 END: 1751103332698616576 :: load refs /root/workspace/project/sel4test/.repo/projects/projects/sel4_projects_libs.git
+
+PID: 1369620 START: 1751103332699648256 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /root/workspace/project/sel4test/projects/sel4test
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 1369621 END: 1751103332703077888 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /root/workspace/project/sel4test/projects/sel4runtime
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 1369621 START: 1751103332703163904 :: load refs /root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git
+
+PID: 1369621 END: 1751103332703403264 :: load refs /root/workspace/project/sel4test/.repo/projects/projects/sel4runtime.git
+
+PID: 1369621 START: 1751103332704844544 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /root/workspace/project/sel4test/projects/util_libs
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 1369620 END: 1751103332707998464 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /root/workspace/project/sel4test/projects/sel4test
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 1369620 START: 1751103332708274176 :: load refs /root/workspace/project/sel4test/.repo/projects/projects/sel4test.git
+
+PID: 1369620 END: 1751103332708538624 :: load refs /root/workspace/project/sel4test/.repo/projects/projects/sel4test.git
+
+PID: 1369620 START: 1751103332709139712 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /root/workspace/project/sel4test/tools/nanopb
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 1369620 END: 1751103332746509568 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /root/workspace/project/sel4test/tools/nanopb
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 1369620 START: 1751103332746667264 :: load refs /root/workspace/project/sel4test/.repo/projects/tools/nanopb.git
+
+PID: 1369620 END: 1751103332747054336 :: load refs /root/workspace/project/sel4test/.repo/projects/tools/nanopb.git
+
+PID: 1369620 START: 1751103332747695104 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /root/workspace/project/sel4test/tools/opensbi
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 1369620 END: 1751103332766731008 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /root/workspace/project/sel4test/tools/opensbi
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 1369620 START: 1751103332766854656 :: load refs /root/workspace/project/sel4test/.repo/projects/tools/opensbi.git
+
+PID: 1369620 END: 1751103332767124736 :: load refs /root/workspace/project/sel4test/.repo/projects/tools/opensbi.git
+
+PID: 1369620 START: 1751103332767717120 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /root/workspace/project/sel4test/tools/seL4
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 1369621 END: 1751103332769523712 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /root/workspace/project/sel4test/projects/util_libs
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 1369621 START: 1751103332769647104 :: load refs /root/workspace/project/sel4test/.repo/projects/projects/util_libs.git
+
+PID: 1369621 END: 1751103332769920768 :: load refs /root/workspace/project/sel4test/.repo/projects/projects/util_libs.git
+
+PID: 1369620 END: 1751103332780253440 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /root/workspace/project/sel4test/tools/seL4
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 1369620 START: 1751103332780535808 :: load refs /root/workspace/project/sel4test/.repo/projects/tools/seL4.git
+
+PID: 1369620 END: 1751103332780782080 :: load refs /root/workspace/project/sel4test/.repo/projects/tools/seL4.git
+
+PID: 1369375 START: 1751103332783701504 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.main.synctime', '2025-06-28T09:35:32.783481+00:00'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.main.synctime 2025-06-28T09:35:32.783481+00:00 1>| 2>|
+
+PID: 1369375 END: 1751103332785308416 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.main.synctime', '2025-06-28T09:35:32.783481+00:00'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.main.synctime 2025-06-28T09:35:32.783481+00:00 1>| 2>|
+
+PID: 1369375 START: 1751103332785508096 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.main.version', '1'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.main.version 1 1>| 2>|
+
+PID: 1369375 END: 1751103332787059456 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.main.version', '1'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.main.version 1 1>| 2>|
+
+PID: 1369375 START: 1751103332787209728 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.sys.argv', "['/root/workspace/project/sel4test/.repo/repo/main.py', '--repo-dir=/root/workspace/project/sel4test/.repo', '--wrapper-version=2.54', '--wrapper-path=/root/workspace/project/bin/repo', '--', 'sync']"] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.sys.argv ['/root/workspace/project/sel4test/.repo/repo/main.py', '--repo-dir=/root/workspace/project/sel4test/.repo', '--wrapper-version=2.54', '--wrapper-path=/root/workspace/project/bin/repo', '--', 'sync'] 1>| 2>|
+
+PID: 1369375 END: 1751103332788547840 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.sys.argv', "['/root/workspace/project/sel4test/.repo/repo/main.py', '--repo-dir=/root/workspace/project/sel4test/.repo', '--wrapper-version=2.54', '--wrapper-path=/root/workspace/project/bin/repo', '--', 'sync']"] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.sys.argv ['/root/workspace/project/sel4test/.repo/repo/main.py', '--repo-dir=/root/workspace/project/sel4test/.repo', '--wrapper-version=2.54', '--wrapper-path=/root/workspace/project/bin/repo', '--', 'sync'] 1>| 2>|
+
+PID: 1369375 START: 1751103332788730624 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.jobs', '2'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.jobs 2 1>| 2>|
+
+PID: 1369375 END: 1751103332790168064 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.jobs', '2'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.jobs 2 1>| 2>|
+
+PID: 1369375 START: 1751103332790300928 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.outermanifest', 'true'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.outermanifest true 1>| 2>|
+
+PID: 1369375 END: 1751103332791731712 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.outermanifest', 'true'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.outermanifest true 1>| 2>|
+
+PID: 1369375 START: 1751103332791879168 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.jobsnetwork', '1'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.jobsnetwork 1 1>| 2>|
+
+PID: 1369375 END: 1751103332793314816 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.jobsnetwork', '1'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.jobsnetwork 1 1>| 2>|
+
+PID: 1369375 START: 1751103332793460480 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.jobscheckout', '2'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.jobscheckout 2 1>| 2>|
+
+PID: 1369375 END: 1751103332794724096 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.jobscheckout', '2'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.jobscheckout 2 1>| 2>|
+
+PID: 1369375 START: 1751103332794895360 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.mpupdate', 'true'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.mpupdate true 1>| 2>|
+
+PID: 1369375 END: 1751103332796296704 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.mpupdate', 'true'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.mpupdate true 1>| 2>|
+
+PID: 1369375 START: 1751103332796451584 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.clonebundle', 'true'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.clonebundle true 1>| 2>|
+
+PID: 1369375 END: 1751103332797804032 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.clonebundle', 'true'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.clonebundle true 1>| 2>|
+
+PID: 1369375 START: 1751103332797980672 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.retryfetches', '0'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.retryfetches 0 1>| 2>|
+
+PID: 1369375 END: 1751103332799315200 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.retryfetches', '0'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.retryfetches 0 1>| 2>|
+
+PID: 1369375 START: 1751103332799452672 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.prune', 'true'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.prune true 1>| 2>|
+
+PID: 1369375 END: 1751103332800806144 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.prune', 'true'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.prune true 1>| 2>|
+
+PID: 1369375 START: 1751103332800936960 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.repoverify', 'true'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.repoverify true 1>| 2>|
+
+PID: 1369375 END: 1751103332802194688 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.repoverify', 'true'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.repoverify true 1>| 2>|
+
+PID: 1369375 START: 1751103332802325760 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.quiet', 'false'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.quiet false 1>| 2>|
+
+PID: 1369375 END: 1751103332803756288 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.quiet', 'false'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.quiet false 1>| 2>|
+
+PID: 1369375 START: 1751103332803898112 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.verbose', 'false'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.verbose false 1>| 2>|
+
+PID: 1369375 END: 1751103332805206528 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.verbose', 'false'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.verbose false 1>| 2>|
+
+PID: 1369375 START: 1751103332805388288 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.remote.origin.url', 'git@github.com:seL4/sel4test-manifest.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.remote.origin.url git@github.com:seL4/sel4test-manifest.git 1>| 2>|
+
+PID: 1369375 END: 1751103332806922752 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.remote.origin.url', 'git@github.com:seL4/sel4test-manifest.git'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.remote.origin.url git@github.com:seL4/sel4test-manifest.git 1>| 2>|
+
+PID: 1369375 START: 1751103332807057664 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 1369375 END: 1751103332808420864 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 1369375 START: 1751103332808572928 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.branch.default.remote', 'origin'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.branch.default.remote origin 1>| 2>|
+
+PID: 1369375 END: 1751103332809986304 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.branch.default.remote', 'origin'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.branch.default.remote origin 1>| 2>|
+
+PID: 1369375 START: 1751103332810142464 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.branch.default.merge', 'refs/heads/master'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.branch.default.merge refs/heads/master 1>| 2>|
+
+PID: 1369375 END: 1751103332811677440 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.branch.default.merge', 'refs/heads/master'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.branch.default.merge refs/heads/master 1>| 2>|
+
+PID: 1369375 START: 1751103332811803648 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.repo.existingprojectcount', '0'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.repo.existingprojectcount 0 1>| 2>|
+
+PID: 1369375 END: 1751103332813097472 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.repo.existingprojectcount', '0'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.repo.existingprojectcount 0 1>| 2>|
+
+PID: 1369375 START: 1751103332813242368 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.repo.newprojectcount', '10'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.repo.newprojectcount 10 1>| 2>|
+
+PID: 1369375 END: 1751103332814594816 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/root/workspace/project/sel4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.repo.newprojectcount', '10'] with debug: : git config --file /root/workspace/project/sel4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.repo.newprojectcount 10 1>| 2>|
+
+PID: 1369375 START: 1751103332815213568 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 1369375 END: 1751103332816438528 :git command /root/workspace/project/sel4test/.repo/projects/tools/seL4.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 1369375 END: 1751103332816536064 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: sync [sid=repo-20250628T093458Z-P0014e51f/repo-20250628T093458Z-P0014e51f]
+
