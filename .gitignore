@@ -1,2 +1,3 @@
 sel4test/build_x86/
 seL4test/build*
+seL4test/.sel4_cache/
