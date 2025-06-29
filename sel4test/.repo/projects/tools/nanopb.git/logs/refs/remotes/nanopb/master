@@ -1,1 +1,0 @@
-0000000000000000000000000000000000000000 4380dd9e947e6f40e1f31f9eaeda7994ac1872ae luckyu <yujiajun13.163.com> 1751103328 +0800	fetch --quiet --progress nanopb --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/nanopb/* +refs/heads/master:refs/remotes/nanopb/master +refs/tags/*:refs/tags/*: storing head
